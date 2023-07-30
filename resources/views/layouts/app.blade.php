@@ -9,9 +9,14 @@
     @livewireStyles
 </head>
 <body>
-    hello darkness my old friend
-    <livewire:greetings/>
-    <livewire:counter/>
+    Livewire demo
+    <nav class="nav">
+        <a href="/">counter</a>
+        <a href="/input">input</a>
+        <a href="/star-wars">star wars</a>
+    </nav>
+    <hr/>
+    {{$slot}}
     @livewireScripts
 </body>
 </html>

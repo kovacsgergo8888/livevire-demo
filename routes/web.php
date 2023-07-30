@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Livewire\StarWars;
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Counter;
+use App\Http\Livewire\Greetings;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', Counter::class);
+Route::get('/input', Greetings::class);
+
+Route::get('/star-wars', StarWars::class);
