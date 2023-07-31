@@ -13,7 +13,7 @@
     <nav class="nav">
         <a href="/">counter</a>
         <a href="/input">input</a>
-        <a href="/star-wars">star wars</a>
+        <a href="/pokemon">pokemon</a>
     </nav>
     <hr/>
     {{$slot}}

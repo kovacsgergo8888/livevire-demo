@@ -4,12 +4,12 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class Greetings extends Component
+class Input extends Component
 {
     public string $name = '';
 
     public function render()
     {
-        return view('livewire.greetings');
+        return view('livewire.input');
     }
 }
