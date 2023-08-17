@@ -1,8 +1,8 @@
 <div>
     <div>
-        <input type="text" wire:model="name"/>
+        <input type="text" wire:model.debounce.50ms="inputValue"/>
         <div>
-            {{$name}}
+            {{$inputValue}}
         </div>
     </div>
 </div>

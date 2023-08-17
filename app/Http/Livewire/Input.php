@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class Input extends Component
 {
-    public string $name = '';
+    public string $inputValue = '';
 
     public function render()
     {

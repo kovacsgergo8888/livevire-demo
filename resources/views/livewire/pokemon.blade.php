@@ -13,7 +13,9 @@
     <div>
         @foreach ($pokemonList as $pokemon)
             <div>
-                {{var_dump($pokemon)}}
+                <pre>
+                    {{var_dump($pokemon)}}
+                </pre>
             </div>
         @endforeach
     </div>
